@@ -10,6 +10,8 @@
 | Categorias | Social, Adventure, Decoration (ou: Social, Game Mechanics) |
 | Ambiente | **Client: Required · Server: Required** |
 | Licença | GPL-3.0-or-later |
+| Source code (link) | https://github.com/AikoTwo/colonies-alive |
+| Issues (link) | https://github.com/AikoTwo/colonies-alive/issues |
 | Descrição | conteúdo de `DESCRIPTION.md` |
 | Ícone | (opcional) um rosto de criança da colônia, 512x512 |
 | Galeria | screenshots de `run/screenshots/ca_*.png` (poses) e do jogo com shaders |

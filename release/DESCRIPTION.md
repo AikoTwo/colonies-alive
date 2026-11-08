@@ -73,7 +73,7 @@ Works with shaders (tested with Iris + Complementary Reimagined).
 - Child voices (crying, laughing, grumbling, baby babbling) come from **[MCA Reborn](https://modrinth.com/mod/minecraft-comes-alive-reborn)** by Luke100000 and contributors (GPL-3.0).
 - Built on **MineColonies** by the LDT Team.
 
-License: **GPL-3.0-or-later**
+License: **GPL-3.0-or-later** · Source code: [github.com/AikoTwo/colonies-alive](https://github.com/AikoTwo/colonies-alive) · Bugs and ideas: [issues](https://github.com/AikoTwo/colonies-alive/issues)
 
 ---
 
@@ -97,4 +97,4 @@ Minecraft **1.21.1**, NeoForge **21.1.265+** e **MineColonies 1.1.1411+** (obrig
 ### Avisos
 Versão beta: **faça backup do mundo**. O comando `/coloniesalive adultos` é **irreversível**.
 
-Vozes das crianças: **MCA Reborn** (Luke100000 e colaboradores, GPL-3.0). Licença: **GPL-3.0-or-later**.
+Vozes das crianças: **MCA Reborn** (Luke100000 e colaboradores, GPL-3.0). Licença: **GPL-3.0-or-later**. Código-fonte: [github.com/AikoTwo/colonies-alive](https://github.com/AikoTwo/colonies-alive).
