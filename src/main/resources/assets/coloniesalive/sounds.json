@@ -1,0 +1,75 @@
+{
+  "child_giggle_girl": {
+    "subtitle": "subtitles.coloniesalive.child_giggle",
+    "sounds": [
+      { "name": "coloniesalive:giggle/girl_laugh1", "pitch": 1.35 },
+      { "name": "coloniesalive:giggle/girl_laugh2", "pitch": 1.35 },
+      { "name": "coloniesalive:giggle/girl_laugh3", "pitch": 1.35 },
+      { "name": "coloniesalive:giggle/girl_laugh4", "pitch": 1.35 }
+    ]
+  },
+  "child_giggle_boy": {
+    "subtitle": "subtitles.coloniesalive.child_giggle",
+    "sounds": [
+      { "name": "coloniesalive:giggle/boy_laugh1", "pitch": 1.6 },
+      { "name": "coloniesalive:giggle/boy_laugh2", "pitch": 1.6 },
+      { "name": "coloniesalive:giggle/boy_laugh3", "pitch": 1.6 }
+    ]
+  },
+  "child_angry_girl": {
+    "subtitle": "subtitles.coloniesalive.child_angry",
+    "sounds": [
+      { "name": "coloniesalive:angry/girl_angry1", "pitch": 1.3 },
+      { "name": "coloniesalive:angry/girl_angry2", "pitch": 1.3 },
+      { "name": "coloniesalive:angry/girl_angry3", "pitch": 1.3 },
+      { "name": "coloniesalive:angry/girl_angry4", "pitch": 1.3 }
+    ]
+  },
+  "child_angry_boy": {
+    "subtitle": "subtitles.coloniesalive.child_angry",
+    "sounds": [
+      { "name": "coloniesalive:angry/boy_angry1", "pitch": 1.5 },
+      { "name": "coloniesalive:angry/boy_angry2", "pitch": 1.5 },
+      { "name": "coloniesalive:angry/boy_angry3", "pitch": 1.5 }
+    ]
+  },
+  "child_cry_girl": {
+    "subtitle": "subtitles.coloniesalive.child_cry",
+    "sounds": [
+      { "name": "coloniesalive:cry/girl_cry1", "pitch": 1.3 },
+      { "name": "coloniesalive:cry/girl_cry2", "pitch": 1.3 },
+      { "name": "coloniesalive:cry/girl_cry3", "pitch": 1.3 },
+      { "name": "coloniesalive:cry/girl_cry4", "pitch": 1.3 },
+      { "name": "coloniesalive:cry/girl_cry5", "pitch": 1.3 }
+    ]
+  },
+  "baby_laugh": {
+    "subtitle": "subtitles.coloniesalive.baby_laugh",
+    "sounds": [
+      { "name": "coloniesalive:baby/laugh1" },
+      { "name": "coloniesalive:baby/laugh2" },
+      { "name": "coloniesalive:baby/laugh3" },
+      { "name": "coloniesalive:baby/laugh4" },
+      { "name": "coloniesalive:baby/laugh5" }
+    ]
+  },
+  "baby_coo": {
+    "subtitle": "subtitles.coloniesalive.baby_coo",
+    "sounds": [
+      { "name": "coloniesalive:baby/laugh1", "volume": 0.45, "pitch": 1.1 },
+      { "name": "coloniesalive:baby/laugh2", "volume": 0.45 },
+      { "name": "coloniesalive:baby/laugh3", "volume": 0.4, "pitch": 1.05 },
+      { "name": "coloniesalive:baby/laugh5", "volume": 0.45, "pitch": 1.1 }
+    ]
+  },
+  "child_cry_boy": {
+    "subtitle": "subtitles.coloniesalive.child_cry",
+    "sounds": [
+      { "name": "coloniesalive:cry/boy_cry1", "pitch": 1.5 },
+      { "name": "coloniesalive:cry/boy_cry2", "pitch": 1.5 },
+      { "name": "coloniesalive:cry/boy_cry3", "pitch": 1.5 },
+      { "name": "coloniesalive:cry/boy_cry4", "pitch": 1.5 },
+      { "name": "coloniesalive:cry/boy_cry5", "pitch": 1.5 }
+    ]
+  }
+}

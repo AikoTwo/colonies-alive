@@ -1,0 +1,19 @@
+{
+  "length": 7.3,
+  "loop": true,
+  "animations": [
+    {
+      "bone": "head",
+      "target": "minecraft:rotation",
+      "keyframes": [
+        { "timestamp": 0.0, "target": [0, 0, 0], "interpolation": "minecraft:catmullrom" },
+        { "timestamp": 1.2, "target": [-12, 0, 4], "interpolation": "minecraft:catmullrom" },
+        { "timestamp": 2.4, "target": [-10, 0, 3], "interpolation": "minecraft:catmullrom" },
+        { "timestamp": 3.4, "target": [0, 0, 0], "interpolation": "minecraft:catmullrom" },
+        { "timestamp": 4.6, "target": [4, 0, -3], "interpolation": "minecraft:catmullrom" },
+        { "timestamp": 5.6, "target": [2, 0, -2], "interpolation": "minecraft:catmullrom" },
+        { "timestamp": 7.3, "target": [0, 0, 0], "interpolation": "minecraft:catmullrom" }
+      ]
+    }
+  ]
+}

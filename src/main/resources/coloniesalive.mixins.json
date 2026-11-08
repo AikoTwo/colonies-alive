@@ -1,0 +1,28 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.aiko.coloniesalive.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "CitizenAIMixin",
+    "CitizenDataAccessor",
+    "QuestGiverMixin",
+    "ReproductionManagerMixin",
+    "ChildGrowUpMixin",
+    "SchoolNoBabiesMixin",
+    "BabyNoFleeMixin",
+    "BabySeatDismountMixin"
+  ],
+  "client": [
+    "CitizenModelMixin",
+    "CitizenStatusIconMixin",
+    "BabyBodyRotationMixin",
+    "BabySkinMixin",
+    "AccessoryHatMixin",
+    "SailorHatMixin",
+    "CitizenWindowTabMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

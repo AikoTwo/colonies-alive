@@ -1,0 +1,56 @@
+{
+  "length": 1.2,
+  "loop": true,
+  "animations": [
+    {
+      "bone": "right_arm",
+      "target": "minecraft:rotation",
+      "keyframes": [
+        { "timestamp": 0.0, "target": [-25, 0, 55], "interpolation": "minecraft:catmullrom" },
+        { "timestamp": 0.6, "target": [-15, 0, 62], "interpolation": "minecraft:catmullrom" },
+        { "timestamp": 1.2, "target": [-25, 0, 55], "interpolation": "minecraft:catmullrom" }
+      ]
+    },
+    {
+      "bone": "left_arm",
+      "target": "minecraft:rotation",
+      "keyframes": [
+        { "timestamp": 0.0, "target": [-25, 0, -55], "interpolation": "minecraft:catmullrom" },
+        { "timestamp": 0.6, "target": [-15, 0, -62], "interpolation": "minecraft:catmullrom" },
+        { "timestamp": 1.2, "target": [-25, 0, -55], "interpolation": "minecraft:catmullrom" }
+      ]
+    },
+    {
+      "bone": "right_leg",
+      "target": "minecraft:rotation",
+      "keyframes": [
+        { "timestamp": 0.0, "target": [4, 0, 6], "interpolation": "minecraft:catmullrom" },
+        { "timestamp": 1.2, "target": [4, 0, 6], "interpolation": "minecraft:catmullrom" }
+      ]
+    },
+    {
+      "bone": "left_leg",
+      "target": "minecraft:rotation",
+      "keyframes": [
+        { "timestamp": 0.0, "target": [-4, 0, -6], "interpolation": "minecraft:catmullrom" },
+        { "timestamp": 1.2, "target": [-4, 0, -6], "interpolation": "minecraft:catmullrom" }
+      ]
+    },
+    {
+      "bone": "head",
+      "target": "minecraft:rotation",
+      "keyframes": [
+        { "timestamp": 0.0, "target": [4, 0, 0], "interpolation": "minecraft:catmullrom" },
+        { "timestamp": 1.2, "target": [4, 0, 0], "interpolation": "minecraft:catmullrom" }
+      ]
+    },
+    {
+      "bone": "body",
+      "target": "minecraft:rotation",
+      "keyframes": [
+        { "timestamp": 0.0, "target": [2, 0, 0], "interpolation": "minecraft:catmullrom" },
+        { "timestamp": 1.2, "target": [2, 0, 0], "interpolation": "minecraft:catmullrom" }
+      ]
+    }
+  ]
+}

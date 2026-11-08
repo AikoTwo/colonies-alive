@@ -1,0 +1,42 @@
+<window size="210 244" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/ldtteam/BlockUI/version/main/src/main/resources/assets/blockui/gui/block_ui.xsd">
+    <layout source="minecolonies:gui/citizen/nav.xml"/>
+
+    <text pos="45 15" size="140 11" color="black" textalign="MIDDLE" label="§n$(coloniesalive.gui.social.title)§r"/>
+
+    <!-- mood -->
+    <text pos="45 32" size="140 11" color="black" textalign="MIDDLE" id="moodText"/>
+    <box pos="64 45" size="102 8" linewidth="1" color="#3F2A14"/>
+    <gradient id="moodFill" pos="65 46" size="100 6"/>
+
+    <!-- how much the citizen likes the player -->
+    <text pos="45 62" size="140 11" color="black" textalign="MIDDLE" label="$(coloniesalive.gui.social.likesyou)"/>
+    <image id="heart0" pos="65 75" size="9 9"/>
+    <image id="heart1" pos="75 75" size="9 9"/>
+    <image id="heart2" pos="85 75" size="9 9"/>
+    <image id="heart3" pos="95 75" size="9 9"/>
+    <image id="heart4" pos="105 75" size="9 9"/>
+    <image id="heart5" pos="115 75" size="9 9"/>
+    <image id="heart6" pos="125 75" size="9 9"/>
+    <image id="heart7" pos="135 75" size="9 9"/>
+    <image id="heart8" pos="145 75" size="9 9"/>
+    <image id="heart9" pos="155 75" size="9 9"/>
+    <text pos="45 87" size="140 11" color="black" textalign="MIDDLE" id="affinityText"/>
+
+    <!-- partner -->
+    <text pos="45 100" size="140 11" color="black" textalign="MIDDLE" id="partnerText"/>
+
+    <!-- pregnancy / baby: time left and a bar -->
+    <text pos="45 113" size="140 11" color="black" textalign="MIDDLE" id="familyText"/>
+    <box pos="64 125" size="102 6" linewidth="1" color="#3F2A14" id="familyBox"/>
+    <gradient id="familyFill" pos="65 126" size="100 4"/>
+
+    <!-- friends and rivals -->
+    <text pos="45 135" size="140 11" color="black" textalign="MIDDLE" label="§n$(coloniesalive.gui.social.bonds)§r"/>
+    <text pos="45 152" size="140 11" color="#555555" textalign="MIDDLE" id="noBonds" label="$(coloniesalive.gui.social.nobonds)"/>
+    <list id="bonds" size="142 80" pos="44 147">
+        <box size="100% 12" linewidth="0">
+            <text id="name" size="72 11" pos="2 2" color="black"/>
+            <text id="status" size="58 11" pos="74 2" color="black" textalign="TOP_RIGHT"/>
+        </box>
+    </list>
+</window>

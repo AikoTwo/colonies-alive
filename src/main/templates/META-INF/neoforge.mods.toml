@@ -1,0 +1,40 @@
+modLoader="javafml"
+loaderVersion="${loader_version_range}"
+license="${mod_license}"
+
+[[mods]]
+modId="${mod_id}"
+version="${mod_version}"
+displayName="${mod_name}"
+authors="${mod_authors}"
+credits="Child voices (crying, laughing, grumbling, baby babbling) from MCA Reborn by Luke100000 and contributors (GPL-3.0). Built on MineColonies by the LDT Team."
+description='''
+An addon for MineColonies that brings the colony to life.
+Children play, go to school, cry, giggle and hold grudges; adults chat, fall in love and start families;
+babies are born, crawl, try to walk and get carried to bed. Citizens have moods you can see in how they walk.
+'''
+
+[[mixins]]
+config="${mod_id}.mixins.json"
+
+[[dependencies.${mod_id}]]
+    modId="neoforge"
+    type="required"
+    versionRange="[${neo_version},)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.${mod_id}]]
+    modId="minecraft"
+    type="required"
+    versionRange="${minecraft_version_range}"
+    ordering="NONE"
+    side="BOTH"
+
+# the addon hooks into MineColonies internals (citizen AI, school, reproduction): built and tested against this build
+[[dependencies.${mod_id}]]
+    modId="minecolonies"
+    type="required"
+    versionRange="${minecolonies_version_range}"
+    ordering="AFTER"
+    side="BOTH"

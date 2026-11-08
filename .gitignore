@@ -1,0 +1,29 @@
+# build output
+build/
+bin/
+out/
+.gradle/
+
+# test game folder (worlds, configs, other mods, shaders, screenshots)
+run/
+
+# local copies of other projects' sources (MineColonies, tools) used for reference
+mc-src/
+
+# logs of test runs
+*.log
+
+# release jars are uploaded to Modrinth, not kept in git
+release/*.jar
+
+# IDE
+.idea/
+*.iml
+.vscode/
+.settings/
+.classpath
+.project
+.factorypath
+
+# Eclipse launch configs (absolute local paths)
+.eclipse/
